@@ -1,0 +1,28 @@
+ Target Cable: Gowin USB Cable(FT2CH)/0/None/null@3MHz
+ Target Device: GW1N-9C(0x1100481B)
+ Operation "embFlash Erase,Program,Verify" for device#1...
+
+Erasing embFlash ...: [                         ] 0%                  Status Code is: 0x0001F020
+
+Erasing embFlash ...: [#########################] 100%                 
+
+Retry to Erase embFlash ...: [                         ] 0%                  Status Code is: 0x0001F020
+
+Erasing embFlash ...: [#########################] 100%                 
+
+Retry to Erase embFlash ...: [                         ] 0%                  Status Code is: 0x0001F020
+
+Erasing embFlash ...: [#########################] 100%                 
+
+Retry to Erase embFlash ...: [                         ] 0%                  Status Code is: 0x0001F020
+
+Erasing embFlash ...: [#########################] 100%                 
+
+Retry to Erase embFlash ...: [                         ] 0%                  Status Code is: 0x0001F020
+
+Erasing embFlash ...: [#########################] 100%                 
+
+Error: Erase Failed!
+ Finished.
+ Cost 5.81 second(s)
+  

@@ -1,0 +1,33 @@
+{
+  "version": "v0.1.0",
+  "snapshot_date": "2026-11-11",
+  "mcu": "CH32V305GBU6",
+  "firmware_files": {
+    "Alternative_FT232H.elf": {
+      "bytes": 283904,
+      "sha256": "bf1cafe2b9e82152792d4747803fbca51b182af5658e8f450c5eb5021e6bfe14"
+    },
+    "Alternative_FT232H.hex": {
+      "bytes": 56845,
+      "sha256": "eea7979d23936148f859440f366a30aadb4cb909167852105f4c0415d5c0c5f6"
+    },
+    "Alternative_FT232H.bin": {
+      "bytes": 20200,
+      "sha256": "8366f8316342559e2b43f27294ffc3cc62c7ffce525004148580deee235f44b4"
+    }
+  },
+  "validation": {
+    "clean_output_build_exit": 0,
+    "errors": 0,
+    "warnings": 0,
+    "rebuilt_bin_matches_validated": true,
+    "flash_requested_MHz": 2.5,
+    "flash_native_passes": 3,
+    "flash_native_runs": 3,
+    "3MHz_native_passes": 3,
+    "3MHz_native_runs": 4
+  },
+  "compiler": "riscv-none-embed-gcc 8.2.0",
+  "build_command": "make -j8 BUILD=build/publishcheck all",
+  "hardware_firmware_reflashed_for_publication": false
+}
